@@ -1,0 +1,16 @@
+{
+  "name": "practical_node",
+  "description": "Guide to practical node learning. Node done the right way",
+  "version": "0.0.0",
+  "main": "practical_node.js",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec"
+  },
+  "dependencies": {
+    "zmq": "^2.13.0"
+  }
+}

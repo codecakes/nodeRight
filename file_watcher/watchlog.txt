@@ -1,0 +1,8 @@
+total 40K
+drwxrwxr-x 2 info info 4.0K Sep  3 17:02 .
+drwxrwxr-x 6 info info 4.0K Sep  2 19:41 ..
+-rw-rw-r-- 1 info info   10 Sep  3 17:02 simple.txt
+-rwxrwxr-x 1 info info 2.1K Sep  3 17:01 watch.js
+-rw-rw-r-- 1 info info    0 Sep  3 17:02 watchlog.txt
+File simple.txt changed
+File simple.txt changed
