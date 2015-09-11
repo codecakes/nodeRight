@@ -30,3 +30,5 @@ node_modules
 #others
 .c9/
 .jshintrc
+zeromq*
+libsodium*
