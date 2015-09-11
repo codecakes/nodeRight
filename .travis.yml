@@ -14,7 +14,7 @@ before_install:
     - sudo make
     - sudo make install
     - cd ..
-    - sudo echo "/usr/local/lib" >> /etc/ld.so.conf
+    - echo "/usr/local/lib" >> /etc/ld.so.conf
     - sudo ldconfig
 language: node_js
 node_js:
