@@ -8,7 +8,7 @@
     "mocha": "*"
   },
   "scripts": {
-    "test": "mocha --no-colors --reporter spec"
+    "test": "mocha --harmony --reporter spec"
   },
   "dependencies": {
     "zmq": "^2.13.0"
