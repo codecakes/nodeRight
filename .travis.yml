@@ -1,4 +1,16 @@
+before_install:
+    - wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.3.tar.gz
+    - tar -zxvf libsodium-1.0.3.tar.gz
+    - ./libsodium-1.0.3.tar.gz/configure
+    - ./libsodium-1.0.3.tar.gz/make
+    - ./libsodium-1.0.3.tar.gz.make install
+    - wget http://download.zeromq.org/zeromq-4.1.3.tar.gz
+    - tar -zxvf zeromq-4.1.3.tar.gz
+    - ./zeromq-4.1.3.tar.gz/configure
+    - ./zeromq-4.1.3.tar.gz/make
+    - ./zeromq-4.1.3.tar.gz/make install
+    - echo "/usr/local/lib" >> /etc/ld.so.conf
+    - ldconfig
 language: node_js
 node_js:
-   - "0.12"
    - "0.12.7"
