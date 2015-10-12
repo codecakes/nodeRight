@@ -31,13 +31,15 @@ const
         },
         'start': function start () {
             console.log("starting responder..");
-            responder.on('message', function responder (data) {
+            responder.on('message', function respondMsg (data) {
                     //On incoming message
                     //parse JSON data
                     let req = JSON.parse(data);
+                    console.log("received data with process id " + req.txData.reqPid + " from platform " + req.txData.reqPlatform);
+                    console.log(req);
 
                     //echo same data with some meta
-                    console.log("sending data.. " + req);
+                    console.log("echoing data back.. " + req);
                     responder.send(JSON.stringify({
                         req:req,
                         time: +new Date,
@@ -55,5 +57,5 @@ const
     resp = Object.create(fnRespond);
 
 
-resp.start();
 resp.init();
+resp.start();
