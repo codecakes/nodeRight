@@ -25,7 +25,8 @@ const
                 REP/REQ pair.
                 */
                 responder.bind('tcp://0.0.0.0:5433', function Err (err) {
-                    if (err) {console.error(err);}
+                    if (err) {console.error('ERROR: ' + err);}
+                    console.log("listening..");
                 });
         },
         'start': function start () {
