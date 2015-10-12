@@ -25,11 +25,7 @@ const
                 txData = {
                             reqPid: process.pid,
                             reqPlatform: process.platform
-                },
-                chunk = JSON.stringify({
-                            txData: txData,
-                            time: +new Date
-                        });
+                };
 
             //Recvd response/reply
             requester.on('message', function requesterMsg (data) {
@@ -41,8 +37,16 @@ const
 
             });
 
-            console.log("sending chunk of message..");
-            requester.send(chunk);
+
+            for (let counter = 0, chunk; counter < 3; counter++) {
+                chunk = JSON.stringify({
+                            txData: txData,
+                            time: +new Date
+                        });
+
+                console.log("sending chunk of message.." + (counter+1));
+                requester.send(chunk);
+            }
         }
     },
     request = Object.create(fnReq);
