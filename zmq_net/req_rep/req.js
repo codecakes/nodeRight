@@ -16,9 +16,9 @@ const
     zmq = require("zmq"),
     requester = zmq.socket('req'),
     fnReq = {
-        init: function init() {
+        init: function init(host, port) {
             console.log("connecting..");
-            requester.connect('tcp://0.0.0.0:5433');
+            requester.connect('tcp://'+host+':'+port);
         },
         start: function fnReq () {
             const
@@ -27,7 +27,7 @@ const
                             reqPlatform: process.platform
                 };
 
-            //Recvd response/reply
+            //Upon Recving response
             requester.on('message', function requesterMsg (data) {
                 let
                     rep_data = JSON.parse(data);
@@ -37,8 +37,8 @@ const
 
             });
 
-
-            for (let counter = 0, chunk; counter < 3; counter++) {
+            //Send 3 requests with a chunk JSON each
+            for (let counter = 0, chunk; counter < 1; counter++) {
                 chunk = JSON.stringify({
                             txData: txData,
                             time: +new Date
@@ -48,10 +48,11 @@ const
                 requester.send(chunk);
             }
         }
-    },
-    request = Object.create(fnReq);
+    };
 
-request.init();
+exports.fnReq = fnReq;
+
+let request = Object.create(fnReq);
+
+request.init('0.0.0.0', 5433);
 request.start();
-
-

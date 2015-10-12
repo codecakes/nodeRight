@@ -17,17 +17,16 @@ const
     responder = zmq.socket('rep'),
     /* Responder function that echoes back incoming request*/
     fnRespond = {
-        'init': function init () {
+        'init': function init (host, port) {
                 console.log("initializing connection..");
                 /**
                  * The responder binds to TCP port 5433 of the loopback interface (IP 127.0.0.1)
                 to wait for connections. This makes the responder the stable endpoint of the
                 REP/REQ pair.
                 */
-                responder.bind('tcp://0.0.0.0:5433', function Err (err) {
-                    if (err) {console.error('ERROR: ' + err);}
-                    console.log("listening..");
-                });
+                //Instead of binding, here REP is connecting to DEALER socket which is in cluster.js
+                responder.connect('tcp://'+host+':'+port);
+                console.log("listening..to host: " + host + " on port: "+port);
         },
         'start': function start () {
             console.log("starting responder..");
@@ -53,9 +52,6 @@ const
                 responder.close();
             });
         }
-    },
-    resp = Object.create(fnRespond);
+    };
 
-
-resp.init();
-resp.start();
+exports.fnRespond =fnRespond;
