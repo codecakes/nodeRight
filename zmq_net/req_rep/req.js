@@ -52,7 +52,7 @@ const
 
 exports.fnReq = fnReq;
 
-let request = Object.create(fnReq);
+//let request = Object.create(fnReq);
 
-request.init('0.0.0.0', 5433);
-request.start();
+//request.init('0.0.0.0', 5433);
+//request.start();

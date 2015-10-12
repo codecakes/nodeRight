@@ -39,11 +39,24 @@ const
                console.log(worker.process.pid.toString() + ' worker is online');
             });
 
-            //Start 3 Child Node Processes alongwith a Request REQ Each
+            //#TODO: FIX THIS to detect REQ connections and fire FORKS
+            //Start Evented Child Node Processes alongwith a Request REQ Each
+            router.on("accept", function funcCB (fileDesc, endPt) {
+                //fire up a cluster fork for handling Requests
+                console.log("starting a new FORK process");
+                cluster.fork();
+
+                //OPTIONAL: fire up a request
+                //request = Object.create(req);
+                //request.init(host, portRouter);
+                //request.start();
+            });
+
+            //Alternative hardcoded approach
             for (let counter = 0, request; counter < 3; counter++) {
 
                 //fire up a cluster fork for handling Requests
-                cluster.fork();
+                //cluster.fork();
 
                 //OPTIONAL: fire up a request
                 //request = Object.create(req);
