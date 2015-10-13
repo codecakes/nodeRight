@@ -12,6 +12,12 @@ const
     req = require("./req.js").fnReq,
     rep = require("./rep.js").fnRespond,
     clusterCore = function clusterCore (host, portRouter, portDealer) {
+
+        //Detect Cluster Termination event on Graceful kills or abrupt halt
+        cluster.on('disconnect', function(worker) {
+          console.log('The PARENT worker #' + worker.id + ' with process id: '+ process.pid + ' has disconnected');
+        });
+
         if ( cluster.isMaster ) {
 
             // master process - create ROUTER and DEALER sockets, bind endpoints
@@ -39,7 +45,6 @@ const
                console.log(worker.process.pid.toString() + ' worker is online');
             });
 
-            //#TODO: FIX THIS to detect REQ connections and fire FORKS
             //Start Evented Child Node Processes alongwith a Request REQ Each
             router.on("accept", function funcCB (fileDesc, endPt) {
                 //fire up a cluster fork for handling Requests
@@ -52,7 +57,17 @@ const
                 //request.start();
             });
 
-            //Alternative hardcoded approach
+            //start the socket ROUTER monitor
+            router.monitor(500, 0);
+
+            router.on('disconnect', function routerDisconnect (fd, ep) {
+                console.log("router Disconnected with process id: " + process.pid);
+                console.log('Stopping the monitoring');
+                router.unmonitor();
+            });
+
+            /**
+             * Alternative hardcoded approach
             for (let counter = 0, request; counter < 3; counter++) {
 
                 //fire up a cluster fork for handling Requests
@@ -63,6 +78,7 @@ const
                 //request.init(host, portRouter);
                 //request.start();
             }
+            */
         } else {
             /** for each Forked process, a Responder REP will connect to DEALER
              * to handle the REQ
