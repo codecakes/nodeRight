@@ -4,12 +4,10 @@
 
 const
     zmq = require("zmq"),
-    fs = require("fs"),
     cluster = require("cluster"),
-    host = '*',
+    host = '0.0.0.0',
     portRouter = 5433,
     portDealer = 5436,
-    req = require("./req.js").fnReq,
     rep = require("./rep.js").fnRespond,
     clusterCore = function clusterCore (host, portRouter, portDealer) {
 
@@ -58,7 +56,7 @@ const
             });
 
             //start the socket ROUTER monitor
-            router.monitor(500, 0);
+            router.monitor(200, 0);
 
             router.on('disconnect', function routerDisconnect (fd, ep) {
                 console.log("router Disconnected with process id: " + process.pid);
@@ -94,4 +92,4 @@ const
     };
 
 
-clusterCore('0.0.0.0', portRouter, portDealer);
+clusterCore(host, portRouter, portDealer);
