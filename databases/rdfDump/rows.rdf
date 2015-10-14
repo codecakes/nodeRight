@@ -1,0 +1,235 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:socrata="http://www.socrata.com/rdf/terms#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:ods="http://open-data-standards.github.com/2012/01/open-data-standards#" xmlns:dcterm="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dsbase="http://data.oregon.gov/resource/" xmlns:ds="http://data.oregon.gov/resource/m4ku-rg94/">
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/39">
+    <socrata:rowID>39</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2015-07-28T00:00:00</ds:date>
+    <ds:name>Illegal Use of Pesticides on Marijuana</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/YA6ewElQPUMw3X45LtacDN9aSSBOF2Z5HoEnb_HwI1g"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/37">
+    <socrata:rowID>37</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2015-06-12T00:00:00</ds:date>
+    <ds:name>Use of Ramik Brown in Hazelnut Orchards for Ground Squirrel Control</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/mZyr6IDKa5vT_4OkmZqeSKJpfKK1H9_fvhP9GODIexw"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/36">
+    <socrata:rowID>36</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2015-06-08T00:00:00</ds:date>
+    <ds:name>Bee Aware About Bees and Linden Trees </ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/vP2YyVLXgLXyrdXxDLQRqcVneKOSnInC9Hm-APlwfvU"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/35">
+    <socrata:rowID>35</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2015-05-04T00:00:00</ds:date>
+    <ds:name>Zinc Phosphide Use on Grass Grown for Seed in 2015</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/P32i2DzgpABoziw8l4EGf0XLAGhNYBtc1Afa1OVgCrA"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/34">
+    <socrata:rowID>34</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2015-03-03T00:00:00</ds:date>
+    <ds:name>Neonicotinoids Prohibited for Use on Linden Trees</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/ScUwSJsfdBIKYc8PBnGDNL-W0OSPJHWZzzS5znKC8Kc"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/38">
+    <socrata:rowID>38</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2014-10-06T00:00:00</ds:date>
+    <ds:name>Fall 2014 ODA Pesticide Bulletin</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/-vZdlgf22re2xFBilB1fqUVRItmme6DD9n_-s2z_iCg"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/32">
+    <socrata:rowID>32</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2014-04-17T00:00:00</ds:date>
+    <ds:name>Spring 2014 ODA Pesticide Bulletin</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/vN1VkZEfFRWm2rMf3PUYzIbN-uKyXJjYeVR6MSYQ9rI"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/26">
+    <socrata:rowID>26</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2014-02-28T00:00:00</ds:date>
+    <ds:name>Dicofol 4-E Phase Out Reminder</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/LecnD45uUB-fzL_lPxyznLCOyVkDe65yIXJk6Xm49bA"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/33">
+    <socrata:rowID>33</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2013-10-22T00:00:00</ds:date>
+    <ds:name>Fall 2013 ODA Pesticide Bulletin</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/Q7C_eMqgmQCvZecwIlEuRvO4JrkiUmOdUZJBaa6bT4Q"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/30">
+    <socrata:rowID>30</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2012-09-14T00:00:00</ds:date>
+    <ds:name>Azinphos-Methyl (Guthion) Pesticide Advisory</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/3Ztddm_PaD61x_qEVMII-UKnevmZ3DGaSPNGoP4HTrg"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/1">
+    <socrata:rowID>1</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2012-07-12T00:00:00</ds:date>
+    <ds:name>Thionex Advisory</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/3i0aV2CUwN7SmbLsbXYKdvlnCCF7joJIjsBsoZwKWLA"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/31">
+    <socrata:rowID>31</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2012-05-18T00:00:00</ds:date>
+    <ds:name>Aldicarb-Use of Temik 15G on Potatoes No Longer Legal</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/70001Hfr9w8P48aXBaa0jVyk7UodZx8zeju-28ajzgM"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/2">
+    <socrata:rowID>2</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-09-27T00:00:00</ds:date>
+    <ds:name>Pesticide Advisory — Metam Sodium, Metam Potassium &amp; Dazomet are now Restricted Use Pesticides (RUP)</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/Qse0bnjNSd5w8UmhX22Lln0LDE2EEVWsEtIMwskiG-Q"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/3">
+    <socrata:rowID>3</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-08-19T00:00:00</ds:date>
+    <ds:name>Imprelis Herbicide Stop Sale Order and Composting Restriction</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/bfhHuhfP8lRbeFry6Y6SV-lpOZCFUIjmIurrDZMQ3Dw"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/4">
+    <socrata:rowID>4</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-08-03T00:00:00</ds:date>
+    <ds:name>Regulations Change for Mini-Bulks</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/8wcihRMX6rd-0SxSEt9b8ih4nW0rz8TenpGpsaT63qo"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/5">
+    <socrata:rowID>5</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-07-15T00:00:00</ds:date>
+    <ds:name>The Purchase of RUP is Category Specific</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/YW6IRU24tz0Orer4USOTtnva4ApTN5XcR2IN6dBgTCI"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/6">
+    <socrata:rowID>6</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-06-24T00:00:00</ds:date>
+    <ds:name>Oregon Water Quality Pesticide Management Plan Approved</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/NkITfYbl-j1TVp3ck0cI4sTFICh1il3-YdJ7H6q3ahw"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/7">
+    <socrata:rowID>7</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-06-10T00:00:00</ds:date>
+    <ds:name>What Category for Fruit Trees in Landscape Settings</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/BQpk2Sho2qcdw2ao3oTYNejBf7y4T5h2j-KDPCqjDYo"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/8">
+    <socrata:rowID>8</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-06-07T00:00:00</ds:date>
+    <ds:name>Changes to Directly Supervised Trainee Testing</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/2MQoZOBTS_A_7DDDAwo_aTUJrSRqLlf25mDSY3jgmSQ"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/9">
+    <socrata:rowID>9</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-05-06T00:00:00</ds:date>
+    <ds:name>New Computer-Based Testing Now Available</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/bWpD5OctxJSaZ2GBHKsd6Knt7ZhW47yULTLgHMqC-mU"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/10">
+    <socrata:rowID>10</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-04-26T00:00:00</ds:date>
+    <ds:name>Compliance Tips When "Going Green" </ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/9JqP1xlWJnnazyqdUwajc1llCYUGnGul2ltt04-_uYY"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/11">
+    <socrata:rowID>11</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-03-14T00:00:00</ds:date>
+    <ds:name>Advisory: Metaldehyde Slug &amp; Snail Baits</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/i6Ps3ySH16RKIgeJ1Wm8_yqnbkxMJDZeEk4q5tiEink"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/12">
+    <socrata:rowID>12</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-03-10T00:00:00</ds:date>
+    <ds:name>Zinc Phosphide and Grass Grown for Seed in 2011</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/7dm-GQ5gFnB1dxdBzhxH9HACsM2i_dPRPZwatzGdIpg"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/13">
+    <socrata:rowID>13</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2011-03-01T00:00:00</ds:date>
+    <ds:name>NPIC: A Resource for Pesticide Applicators</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/9DTY9v27VsSEJJ4JTrSK7mfvkCL7T4amhxN70kXxOWQ"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/15">
+    <socrata:rowID>15</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-12-03T00:00:00</ds:date>
+    <ds:name>Computer-Based Pesticide Testing Available</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/-SXpy0oZ1rm-Z0YKs_eFu9OjH1N9SgkS-Drwx-jv2Do"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/14">
+    <socrata:rowID>14</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-12-03T00:00:00</ds:date>
+    <ds:name>EPA Advises Winterizing Homes to Prevent Pests</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/_3wvpk6X4H8lBP-F8y-TWRj6n9IQ24e6GlFtJeooD-U"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/16">
+    <socrata:rowID>16</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-11-03T00:00:00</ds:date>
+    <ds:name>Registrants Have New Option For Label Submission</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/hECNwymUYE81D1amIPXyC9e0ltNYxF8ZNlx-_Oi_Ul0"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/17">
+    <socrata:rowID>17</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-10-29T00:00:00</ds:date>
+    <ds:name>Soil Fumigation Regulations Brochure Available</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/Ip2ioYDZM5l78nCB_pECxPH8MIUx53c7cbc8z62t7b4"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/18">
+    <socrata:rowID>18</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-10-04T00:00:00</ds:date>
+    <ds:name>ODA Hosts International Fertilizer Officials</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/WTgF49t0OYrs18vhMIn5qLlI4IdDxm2mi3xHfG5CTfA"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/19">
+    <socrata:rowID>19</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-08-18T00:00:00</ds:date>
+    <ds:name>ODA and EPA Advise Care When Selecting Pesticides for Bedbug Control</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/8cHqKhc8YFi_2C-EtbmArKETMbNN-eRW0MeFtTPZ6GM"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/20">
+    <socrata:rowID>20</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-07-30T00:00:00</ds:date>
+    <ds:name>Special Requirements for Crops Grown for Seed</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/zTsVq5fdUhmlaKv1tVelu75gNNvf_yoMzVHMLxfiVpw"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/21">
+    <socrata:rowID>21</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-07-20T00:00:00</ds:date>
+    <ds:name>Oregon to Register FIFRA Section 25(b) Minimum Risk Pesticides in 2011</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/5fH907RshdppGsmqtMACnTD0-jHXEM8x1bWHKqrYBTM"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/22">
+    <socrata:rowID>22</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-05-24T00:00:00</ds:date>
+    <ds:name>How to Search for Pesticides Registered in Oregon</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/wiNhc_THXA7FewoeDKmnp5leio5SDNHtRHb7Mxqp1Fw"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/23">
+    <socrata:rowID>23</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-03-17T00:00:00</ds:date>
+    <ds:name>Brigade 2EC Not For Use on Pasture or Hay Fields</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/agGPnBqC1s8-qPECceX3_RRBJEIqhEU0oevfHm4EAE4"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/24">
+    <socrata:rowID>24</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-03-11T00:00:00</ds:date>
+    <ds:name>Use of Furadan on Alfalfa or Alfalfa Grown For Seed is Not Legal</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/u_pw1f3_svEVjWTtUfcfIN9yX6_vYvcv6QNzmxy70xk"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/25">
+    <socrata:rowID>25</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2010-02-26T00:00:00</ds:date>
+    <ds:name>New OR-OSHA PPE Publication</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/n-KJ13jo8fYlqSGAbo1qaCMWf3dzdgdM-XPy6DQh6Rk"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/28">
+    <socrata:rowID>28</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2009-10-02T00:00:00</ds:date>
+    <ds:name>Palisade Not For Wheat, Triticale or Small Grains</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/aK-KmeQe19Fc0OGMh7lJCxTbUGIK0YO93PYRlCh_w00"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/27">
+    <socrata:rowID>27</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2009-05-01T00:00:00</ds:date>
+    <ds:name>Specialty Crops Grown For Seed</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/WeLyjzQz4bg05HoOllFaRO21rivUo6X_5FA8YtHAPM0"/></dsbase:m4ku-rg94>
+<dsbase:m4ku-rg94 rdf:about="http://data.oregon.gov/resource/m4ku-rg94/29">
+    <socrata:rowID>29</socrata:rowID>
+    <rdfs:member rdf:resource="http://data.oregon.gov/resource/m4ku-rg94"/>
+    <ds:date>2007-03-02T00:00:00</ds:date>
+    <ds:name>Basagran False And Misleading Label Alert</ds:name>
+    <foaf:document rdf:resource="http://data.oregon.gov/views/m4ku-rg94/files/tnsDwo4nd-sQuAYeT4oX52F6uwATXrZ8Tce5PBDFJJ0"/></dsbase:m4ku-rg94></rdf:RDF>

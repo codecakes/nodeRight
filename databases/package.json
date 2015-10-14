@@ -1,0 +1,31 @@
+{
+  "name": "databases",
+  "version": "0.1.0",
+  "description": "Tools for creating an ebook database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony nodeunit test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecakes/nodeRight.git"
+  },
+  "keywords": [
+    "node",
+    "couchdb",
+    "nosql"
+  ],
+  "author": "Akul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codecakes/nodeRight/issues"
+  },
+  "homepage": "https://github.com/codecakes/nodeRight#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "fs-walk": "0.0.1",
+    "graceful-fs": "^4.1.2",
+    "nodeunit": "^0.9.1",
+    "request": "^2.65.0"
+  }
+}
